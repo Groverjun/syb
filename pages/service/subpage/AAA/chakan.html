@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../../../css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../css/commonality.css" />
+		<link rel="stylesheet" type="text/css" href="../../../../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../../css/subpages.css"/>		
+		<title>软文推广</title>
+		<style type="text/css">
+			
+			.cctv_img{
+				width: 206px;
+				height: 143px;
+				position: relative;
+			}
+			.cctv_img img{
+				width: 206px;
+				height: 143px;
+			}
+			.img-bg{
+				position: absolute;
+				width: 206px;
+				height: 143px;
+				top: 0;
+				display: none;
+			}
+			.img-bg>img{
+				width: 100%;
+				transition: all 0.5s;
+			}
+			.cctv_img:hover .img-bg{
+				display: block;
+			}
+			 .maximg{
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.1);
+				top: 0;
+				left: 0;
+			}
+			 .maximg img{
+				    width: 660px;
+				    transform: translate3d(310px, 257.156px, 0px) scale3d(1.58333, 1.58333, 1);
+				    opacity: 1;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="commonality">
+			<div id="C_header">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+													<span class="sr-only">切换导航</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="../../../../img/logo.jpg" /></a>
+						</div>
+						<div class="collapse navbar-collapse" id="example-navbar-collapse">
+							<ul class="nav navbar-nav navActive">
+								<li class="sho">
+									<a href="#">全国客服热线：40000-99990</a>
+								</li>
+								<li class="hidd">
+									<a href="#"><i class="iconfont icon-zhexiantu"></i>数据中心</a>
+								</li>
+								<li class="hidd">
+									<a href="#"><i class="iconfont icon-xin"></i>产品服务</a>
+								</li>
+								<li class="hidd">
+									<a href="#"><i class="iconfont icon-yonghu"></i>用户中心</a>
+								</li>
+								<li class="navRight">
+									<a href="../login.html">
+										<i class="iconfont icon-yonghu"></i> 退出
+									</a>
+								</li>
+								<li class="navRight">
+									<a href="../service/serve.html">
+										<i class="iconfont icon-xinfeng" style="font-size: 20px;"></i> 消息中心
+										<span class="radios"></span>										
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div id="C_main">
+				<div id="C_left">
+					<div class="list-group">
+						<a href="../../../../index.html" class="list-group-item act">
+							<i class="iconfont icon-zhexiantu"></i> 数据中心
+							<em class="jian janAct">›</em>
+						</a>
+						<a href="../../../service/serviceCentre.html" class="list-group-item">
+							<i class="iconfont icon-xin"></i> 服务中心
+							<em class="jian">›</em>
+						</a>
+						<a href="../../user/user.html" class="list-group-item">
+							<i class="iconfont icon-yonghu"></i> 用户中心
+							<em class="jian">›</em>
+						</a>
+					</div>
+				</div>
+				<!--公用样式完-->
+				<div id="C_right">
+					<div id="lianmeng">
+						<ul class="lianmeng_h1 clearfix">
+							<li>当前位置：</li>
+							<li>服务中心> <li>
+							<li>AAA认证> </li>
+							<li>查看记录</li>							
+							<li><a href="../../serviceCentre.html"><<返回</a></li>															
+						</ul>
+						<div class="cctv">
+							<img src="../../../../img/aaa1.png" width="20%"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="maximg"></div>	
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	</body>
+</html>
