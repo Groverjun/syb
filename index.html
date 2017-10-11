@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/commonality.css" />
 		<link rel="stylesheet" type="text/css" href="css/shuju.css" />
 		<link rel="stylesheet" type="text/css" href="css/visitDetail.css" />
-		<title>共有样式</title>
+		<title>生意帮</title>
 		<style type="text/css">
 			
 		</style>
@@ -322,9 +322,14 @@
 	</body>
 
 	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	
+	<script src="js/bootstrap.min.js"></script>	
 	<script src="js/echarts.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/shuju/shuju.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/active.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(".seekTop a").click(function(){
+			$(this).find("i").addClass("seekAct").parent("a").siblings().find("i").removeClass("seekAct")
+			
+		})
+	</script>
 </html>
