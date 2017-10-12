@@ -19,7 +19,8 @@
       cursor: pointer; }
       #lianmeng > .lianmeng_h1 li:last-child > a {
         text-decoration: none;
-        color: #fff; }
+        color: #fff;
+        display: block; }
   #lianmeng table {
     margin-top: 20px; }
   #lianmeng table thead {
@@ -44,7 +45,8 @@
       #lianmeng #subpages_none .subpages_list > li {
         margin-bottom: 10px; }
         #lianmeng #subpages_none .subpages_list > li a {
-          color: #fff; }
+          color: #fff;
+          display: block; }
       #lianmeng #subpages_none .subpages_list > li:nth-child(1) {
         margin-top: 50px; }
 
